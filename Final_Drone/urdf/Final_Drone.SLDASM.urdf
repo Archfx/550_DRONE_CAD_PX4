@@ -1,0 +1,43 @@
+<robot
+  name="Final_Drone.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.021214 0.049132 -0.41515"
+        rpy="0 0 0" />
+      <mass
+        value="0.95605" />
+      <inertia
+        ixx="0.018852"
+        ixy="3.9624E-05"
+        ixz="-1.768E-05"
+        iyy="0.021957"
+        iyz="4.4231E-05"
+        izz="0.01953" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_Drone.SLDASM/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_Drone.SLDASM/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
